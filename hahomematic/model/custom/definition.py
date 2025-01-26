@@ -215,6 +215,10 @@ _CUSTOM_DATA_POINT_DEFINITION: Mapping[CDPD, Mapping[int | DeviceProfile, Any]] 
                     Field.RAMP_TIME_VALUE: Parameter.RAMP_TIME_VALUE,
                     Field.SATURATION: Parameter.SATURATION,
                 },
+                CDPD.VISIBLE_REPEATABLE_FIELDS: {
+                    Field.DIM2WARM_STATE: Parameter.DIM2WARM_STATE,
+                    Field.HUMAN_CENTRIC_LIGHT_STATE: Parameter.HUMAN_CENTRIC_LIGHT_STATE,
+                },
                 CDPD.FIELDS: {
                     -1: {
                         Field.DEVICE_OPERATION_MODE: Parameter.DEVICE_OPERATION_MODE,
